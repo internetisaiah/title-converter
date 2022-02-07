@@ -13,6 +13,8 @@ def title_converter():
             continue
         elif char == '-':
             user_string = user_string.replace(char, ' ')
+        elif char == '—':
+            user_string = user_string.replace(char, ' ')
         elif not char.isalnum():
             user_string = user_string.replace(char, '')
 
