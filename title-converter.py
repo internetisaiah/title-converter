@@ -1,10 +1,11 @@
-# Create function that takes a string and converts to the approved naming convention
+# This program contains a function that takes a string and converts it to the approved format.
+# Learn more here: https://www.github.com/analog-isaiah/title-converter
 
 def title_converter():
-    # variables + get user input
+    # get the user's input and assign it to a variable
     user_string = input("Enter show title:\n")
 
-    # convert to lower case
+    # convert the string to lower case
     user_string = user_string.lower()
 
     # remove special characters
@@ -27,7 +28,7 @@ def title_converter():
     # replace spaces with dashes
     new_string = user_string.replace(' ', '-')
 
-    # if title ends with a dash, remove last dash
+    # if the string ends with a dash, remove the last dash
     # note: there will never be more than one dash because we remove duplicate spaces before converting spaces to dashes
     if new_string[-1] == '-':
         new_string = new_string[:-1]
