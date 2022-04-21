@@ -2,14 +2,31 @@
 # Learn more here: https://www.github.com/analog-isaiah/title-converter
 
 def title_converter():
+    # imports and variables
+    import re
+    user_string = ''
+
     # get the user's input and assign it to a variable
-    user_string = input("Enter show title:\n")
+    # if input is blank, ask again
+    while user_string == '':
+        user_string = input("Enter show title:\n")
 
     # convert the string to lower case
     user_string = user_string.lower()
 
-    # remove special characters
+    # for titles containing C++, C#, .NET etc. replace with custom abbreviation
+    # replace c++ with cpp (also works with A++, J++, etc.)
+    user_string = re.sub('\+\+', 'pp', user_string)
+    
+    # replace c# with c-sharp (also works with A#, F#, etc.)
+    user_string = re.sub('[a-z]*#', 'csharp', user_string)
+
+    # replace .net with dotnet
+    user_string = re.sub('.net', 'dotnet', user_string)
+        
+    # replacing and removing special characters
     for char in user_string:
+        # remove special characters
         if char == ' ':
             continue
         elif char == '-':
@@ -20,7 +37,6 @@ def title_converter():
             user_string = user_string.replace(char, '')
 
     # remove duplicate spaces
-    import re
     to_remove = " "
     pattern = "(?P<char>[" + re.escape(to_remove) + "])(?P=char)+"
     user_string = re.sub(pattern, r"\1", user_string)
