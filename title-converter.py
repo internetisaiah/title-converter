@@ -19,11 +19,16 @@ def title_converter():
     user_string = re.sub('\+\+', 'pp', user_string)
     
     # replace c# with c-sharp (also works with A#, F#, etc.)
-    user_string = re.sub('[a-z]*#', 'csharp', user_string)
+    user_string = re.sub('[a-z]*#', '*sharp', user_string)
+
+    # replace asp.net with aspnet
+    user_string = re.sub('asp\.net', 'aspnet', user_string)
+
+    # replace ml.net with mlnet
+    user_string = re.sub('ml\.net', 'mlnet', user_string)
 
     # replace .net with dotnet
-    # added extra space to account for tech words like "ASP.NET"
-    user_string = re.sub('.net', ' dotnet', user_string)
+    user_string = re.sub('\.net', ' dotnet', user_string)
         
     # replacing and removing special characters
     for char in user_string:
