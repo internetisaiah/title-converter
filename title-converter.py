@@ -22,7 +22,8 @@ def title_converter():
     user_string = re.sub('[a-z]*#', 'csharp', user_string)
 
     # replace .net with dotnet
-    user_string = re.sub('.net', 'dotnet', user_string)
+    # added extra space to account for tech words like "ASP.NET"
+    user_string = re.sub('.net', ' dotnet', user_string)
         
     # replacing and removing special characters
     for char in user_string:
