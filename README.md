@@ -18,6 +18,7 @@ This `title-converter` tool takes a string and converts it into the [approved fo
 |Original|Replacement|
 |--------|-----------|
 |A#|`asharp`|
+|ASP.NET|`asp-dotnet`|
 |C#|`csharp`|
 |C++|`cpp`|
 |F#|`fsharp`|
