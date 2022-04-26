@@ -18,13 +18,14 @@ This `title-converter` tool takes a string and converts it into the [approved fo
 |Original|Replacement|
 |--------|-----------|
 |A#|`asharp`|
-|ASP.NET|`asp-dotnet`|
+|ASP.NET|`aspnet`|
 |C#|`csharp`|
 |C++|`cpp`|
 |F#|`fsharp`|
 |J#|`jsharp`|
 |J++|`jpp`|
 |M#|`msharp`|
+|ML.NET|`mlnet`|
 |.NET|`dotnet`|
 |Q#|`qsharp`|
 |R++|`rpp`|
