@@ -27,7 +27,6 @@ This is a simple script that can be used with **Windows**, **MacOS**, and **Linu
 
     - In Windows this could be `C:\Users\yourNameHere>`
     - In Linux this could be `/home/yourNameHere`
-</br>
 
 6. In a terminal window, navigate to your home directory, then type `ls` to see if you've successfully copied over the `title-converter.py` file.
 
