@@ -4,6 +4,12 @@ This `title-converter` tool takes a string of characters and converts it into th
 
 `this-is-a-title-in-the-proper-format`
 
+### Table of Contents
+1. [Approved Format](#approved-format)
+2. [Unique Tech Words](#unique-tech-words)
+3. [Tutorial](#tutorial)
+4. [Improvements](#improvements)
+
 ## Approved Format
 
 |Formatting Rule|Example|
@@ -54,11 +60,7 @@ This is a simple script that can be used with **Windows**, **MacOS**, and **Linu
     - In Windows this could be `C:\Users\yourNameHere>`
     - In Linux this could be `/home/yourNameHere`
 </br></br>
-6. In a terminal window, navigate to your home directory, then type the following to see if you've successfully copied over the `title-converter.py` file:
-
-    ```
-    ls
-    ```
+6. In a terminal window, navigate to your home directory, then type `ls` to see if you've successfully copied over the `title-converter.py` file.
 
 6. To use the tool, type:
 
