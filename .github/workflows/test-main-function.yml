@@ -1,0 +1,11 @@
+name: test-main-function
+on: [push]
+jobs:
+  test-main-function:
+    runs-on: ubuntu-latest
+
+    name: Testing
+    steps:
+
+      - if: ${{ python3 ./title-converter/test.py == False}}
+        run: exit 1

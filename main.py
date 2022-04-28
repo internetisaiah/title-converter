@@ -1,10 +1,15 @@
 # This program contains a function that takes a string and converts it to the approved format.
 # Learn more here: https://www.github.com/analog-isaiah/title-converter
 
-def title_converter():
+def title_converter(optional_string = ''):
     # imports and variables
     import re
     user_string = ''
+
+    if optional_string == '':
+        user_string = ''
+    else:
+        user_string = optional_string
 
     # get the user's input and assign it to a variable
     # if input is blank, ask again
@@ -55,8 +60,12 @@ def title_converter():
     if new_string[-1] == '-':
         new_string = new_string[:-1]
 
-    # print reformatted title
-    print(new_string)
+    # if the string begins with a dash, remove the first dash
+    if new_string[0] == "-":
+        new_string = new_string[1:]
+
+    # returns reformatted title
+    return new_string
 
 if __name__ == '__main__':
-    title_converter()
+    print(title_converter())
