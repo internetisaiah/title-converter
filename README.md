@@ -4,7 +4,7 @@ This is a simple script you can use in **Windows**, **MacOS**, and **Linux** ope
 
 ### Table of Contents
 - [Tutorial](#tutorial)
-- [Approved Format](#approved-format)
+- [Formatting Rules](#formatting-rules)
 - [Word Replacements](#word-replacements)
 - [Suggest Improvements](#suggest-improvements)
 
