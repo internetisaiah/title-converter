@@ -1,6 +1,6 @@
 # title-converter
 
-This is a simple script you can use in **Windows**, **MacOS**, and **Linux** operating systems. The script takes a string of characters and modifies them to match the [formatting rules](#formatting-rules).
+This is a simple script you can use in **Windows**, **MacOS**, and **Linux** operating systems. The script takes a string of characters and modifies them to match [these formatting rules](#formatting-rules).
 
 ### Table of Contents
 - [Tutorial](#tutorial)
