@@ -1,4 +1,4 @@
-# title-converter tool
+# title-converter
 
 This is a simple script that can be used with **Windows**, **MacOS**, and **Linux** operating systems. The script takes a string of characters and converts them into the [approved format](#approved-format).
 
@@ -34,7 +34,7 @@ This is a simple script that can be used with **Windows**, **MacOS**, and **Linu
     python3 ./title-converter/main.py
     ```
 
-8. To convert your title to the [approved format](#approved-format), paste it into the prompt and press **Enter**.
+8. To convert your title to the [approved format](#approved-format), paste it into terminal and press **Enter**.
 
 > **NOTE:** In most terminals, you'll need to **right-click**, **middle-click**, or **Ctrl + Shift + V** in order to paste text.
 
