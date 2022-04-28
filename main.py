@@ -58,5 +58,5 @@ def title_converter():
     # print reformatted title
     print(new_string)
 
-
-title_converter()
+if __name__ == '__main__':
+    title_converter()

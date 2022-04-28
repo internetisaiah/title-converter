@@ -1,6 +1,6 @@
 # title-converter tool
 
-This `title-converter` tool takes a string of characters and converts them into the [approved format](#approved-format).
+This is a simple script that can be used with **Windows**, **MacOS**, and **Linux** operating systems. The script takes a string of characters and converts them into the [approved format](#approved-format).
 
 ### Table of Contents
 1. [Tutorial](#tutorial)
@@ -9,8 +9,6 @@ This `title-converter` tool takes a string of characters and converts them into 
 4. [Suggest Improvements](#suggest-improvements)
 
 ## Tutorial
-
-This is a simple script that can be used with **Windows**, **MacOS**, and **Linux** operating systems:
 
 1. Open a terminal window.
 
@@ -21,22 +19,24 @@ This is a simple script that can be used with **Windows**, **MacOS**, and **Linu
     ```
     git clone https://github.com/analog-isaiah/title-converter.git
     ```
-4. In your file explorer, you'll see a file named `title-converter.py`.
+4. In your file explorer, you'll see a folder named `title-converter`.
 
-5. Copy and paste the file into your home directory.
+5. Copy and paste this folder into your home directory.
 
     - In Windows this could be `C:\Users\yourNameHere>`
     - In Linux this could be `/home/yourNameHere`
 
-6. In a terminal window, navigate to your home directory, then type `ls` to see if you've successfully copied over the `title-converter.py` file.
+6. In a terminal window, navigate to your home directory, then type `ls` to see if you've successfully copied over the `title-converter` folder.
 
-6. To use the tool, type:
+7. To use the tool, type:
 
     ```
-    python3 ./title-converter.py
+    python3 ./title-converter/main.py
     ```
 
-7. Add your title and press **Enter** to convert it to the [approved format](#approved-format).
+8. To convert your title to the [approved format](#approved-format), paste it into the prompt and press **Enter**.
+
+> **NOTE:** In most terminals, you'll need to **right-click**, **middle-click**, or **Ctrl + Shift + V** in order to paste text.
 
 ## Approved Format
 
