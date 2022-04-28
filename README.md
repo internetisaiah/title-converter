@@ -3,10 +3,10 @@
 This is a simple script that can be used with **Windows**, **MacOS**, and **Linux** operating systems. The script takes a string of characters and converts them into the [approved format](#approved-format).
 
 ### Table of Contents
-1. [Tutorial](#tutorial)
-2. [Approved Format](#approved-format)
-3. [Word Replacements](#word-replacements)
-4. [Suggest Improvements](#suggest-improvements)
+- [Tutorial](#tutorial)
+- [Approved Format](#approved-format)
+- [Word Replacements](#word-replacements)
+- [Suggest Improvements](#suggest-improvements)
 
 ## Tutorial
 
