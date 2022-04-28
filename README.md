@@ -28,7 +28,7 @@ This is a simple script you can use in **Windows**, **MacOS**, and **Linux** ope
 
 6. In a terminal window, navigate to your home directory, then type `ls` to see if you've successfully copied over the `title-converter` folder.
 
-7. If you're using MacOS or LInux, be sure to give the script executable permissions:
+7. If you're using MacOS or Linux, be sure to give the script executable permissions:
 
    ```
    chmod +rwx ./title-converter/main.py`
