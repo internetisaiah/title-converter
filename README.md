@@ -1,6 +1,6 @@
 # title-converter
 
-This is a simple script that can be used with **Windows**, **MacOS**, and **Linux** operating systems. The script takes a string of characters and converts them into the [approved format](#approved-format).
+This is a simple script you can use in **Windows**, **MacOS**, and **Linux** operating systems. The script takes a string of characters and modifies them to match the [formatting rules](#formatting-rules).
 
 ### Table of Contents
 1. [Tutorial](#tutorial)
@@ -23,22 +23,28 @@ This is a simple script that can be used with **Windows**, **MacOS**, and **Linu
 
 5. Copy and paste this folder into your home directory.
 
-    - In Windows this could be `C:\Users\yourNameHere>`
-    - In Linux this could be `/home/yourNameHere`
+    - **Windows:** this could be `C:\Users\yourNameHere>`
+    - **MacOs/Linux:** this could be `/home/yourNameHere`
 
 6. In a terminal window, navigate to your home directory, then type `ls` to see if you've successfully copied over the `title-converter` folder.
 
-7. To use the tool, type:
+7. If you're using MacOS or LInux, be sure to give the script executable permissions:
+
+   ```
+   chmod +rwx ./title-converter/main.py`
+    ```
+
+8. To use the tool, type:
 
     ```
     python3 ./title-converter/main.py
     ```
 
-8. To convert your title to the [approved format](#approved-format), paste it into terminal and press **Enter**.
+9. Convert your title by pasting it into terminal and pressing **Enter**.
 
 > **NOTE:** In most terminals, you'll need to **right-click**, **middle-click**, or **Ctrl + Shift + V** in order to paste text.
 
-## Approved Format
+## Formatting Rules
 
 |Formatting Rule|Example|
 |------|-------|
