@@ -1,14 +1,7 @@
 name: test-main-function
 on: [push]
 jobs:
-  test-main-function:
+  test:
     runs-on: ubuntu-latest
-
-    - name: Run test function
-      id: test-function
-
-    - name: Check test function
-      steps:
-
-      - if: ${{ python3 ./title-converter/test.py == False}}
-        run: exit 1
+    steps:
+    - run: python3 ./.test.py
