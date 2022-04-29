@@ -1,4 +1,4 @@
-<!-- Thank you for contributing to this title-converter script. Read comments like this one to get your PR merged faster.
+<!-- Thank you for contributing to this repository! Read comments like this one to get your PR merged faster.
 -->
 
 ### Summary
