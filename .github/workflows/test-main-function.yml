@@ -4,8 +4,11 @@ jobs:
   test-main-function:
     runs-on: ubuntu-latest
 
-    name: Testing
-    steps:
+    - name: Run test function
+      id: test-function
+
+    - name: Check test function
+      steps:
 
       - if: ${{ python3 ./title-converter/test.py == False}}
         run: exit 1

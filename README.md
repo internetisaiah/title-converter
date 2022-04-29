@@ -76,4 +76,4 @@ This is a simple script you can use with **Windows**, **MacOS**, and **Linux** o
 
 ## Suggest Improvements
 
-If you find a bug, have a suggestion, or want to add a word to the [list of replacements](#word-replacements), feel free to [create an issue](https://github.com/analog-isaiah/title-converter/issues/new/choose).
+If you find a bug, have a suggestion, or want to add a word to the [list of replacements](#word-replacements), feel free to [create an issue](https://github.com/analog-isaiah/title-converter/issues/new/choose). 
