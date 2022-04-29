@@ -15,5 +15,7 @@ def test():
     # test whether main.title_converter() matches the test requirments
     if main_result != passing_test:
         sys.exit(1)
+    else:
+        sys.exit(0)
 
 test()
