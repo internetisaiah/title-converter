@@ -3,10 +3,10 @@
 
 def test():
     # imports and variables
-    import os
+    import sys
     import main
     main_result = ""
-    test_variable = ".NET C# G ML.NET ASP.NET C++ F++ This Is A TEST !@$"
+    test_variable = ".NET C# G# ML.NET ASP.NET C++ F++ This Is A TEST !@$"
     passing_test = "dotnet-csharp-gsharp-mlnet-aspnet-cpp-fpp-this-is-a-test"
     
     # run main.title_converter() with test varialbe
@@ -14,6 +14,6 @@ def test():
 
     # test whether main.title_converter() matches the test requirments
     if main_result != passing_test:
-        os.system('exit 1')
+        sys.exit(1)
 
 test()
