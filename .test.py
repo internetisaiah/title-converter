@@ -6,7 +6,7 @@ def test():
     import sys
     import main
     main_result = ""
-    test_variable = ".NET C# G ML.NET ASP.NET C++ F++ This Is A TEST !@$"
+    test_variable = ".NET C# G# ML.NET ASP.NET C++ F++ This Is A TEST !@$"
     passing_test = "dotnet-csharp-gsharp-mlnet-aspnet-cpp-fpp-this-is-a-test"
     
     # run main.title_converter() with test varialbe
@@ -15,7 +15,5 @@ def test():
     # test whether main.title_converter() matches the test requirments
     if main_result != passing_test:
         sys.exit(1)
-    else:
-        sys.exit(0)
 
 test()
