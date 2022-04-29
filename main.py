@@ -33,7 +33,7 @@ def title_converter(optional_string = ''):
     user_string = re.sub('ml\.net', 'mlnet', user_string)
 
     # replace .net with dotnet
-    #user_string = re.sub('\.net', ' dotnet', user_string)
+    user_string = re.sub('\.net', ' dotnet', user_string)
         
     # replacing and removing special characters
     for char in user_string:
