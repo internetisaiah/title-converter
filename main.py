@@ -21,7 +21,7 @@ def title_converter(optional_string = ''):
 
     # for titles containing C++, C#, .NET etc. replace with custom abbreviation
     # replace c++ with cpp (also works with A++, J++, etc.)
-    user_string = re.sub('\+\+', 'pp', user_string)
+    # user_string = re.sub('\+\+', 'pp', user_string)
     
     # replace c# with c-sharp (also works with A#, F#, etc.)
     user_string = re.sub(r'([a-z]*#)', r'\1sharp', user_string)
