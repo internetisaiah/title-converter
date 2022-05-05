@@ -6,8 +6,8 @@ def test():
     import sys
     import main
     main_result = ""
-    test_variable = ".NET C# G# ML.NET ASP.NET C++ F++ This Is A TEST !@$"
-    passing_test = "dotnet-csharp-gsharp-mlnet-aspnet-cpp-fpp-this-is-a-test"
+    test_variable = ".NET C# G# ML.NET ASP.NET C++ F++ This Is A TEST !@$ #1"
+    passing_test = "dotnet-csharp-gsharp-mlnet-aspnet-cpp-fpp-this-is-a-test-1"
     
     # run main.title_converter() with test varialbe
     main_result = main.title_converter(test_variable)

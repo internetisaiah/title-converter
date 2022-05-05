@@ -24,7 +24,7 @@ def title_converter(optional_string = ''):
     user_string = re.sub('\+\+', 'pp', user_string)
     
     # replace c# with c-sharp (also works with A#, F#, etc.)
-    user_string = re.sub(r'([a-z]*#)', r'\1sharp', user_string)
+    user_string = re.sub(r'(\b[a-z]*#)', r'\1sharp', user_string)
 
     # replace asp.net with aspnet
     user_string = re.sub('asp\.net', 'aspnet', user_string)
