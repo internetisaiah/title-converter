@@ -10,6 +10,8 @@ This is a simple script you can use with **Windows**, **MacOS**, and **Linux** o
 
 ## Tutorial
 
+> Before you begin, Windows users should install [terminal](https://www.microsoft.com/store/productId/9N0DX20HK701).
+
 1. Open a terminal window.
 
 2. Type `python3` to see if you have python installed. If you don't, simply follow the prompts on your screen.
